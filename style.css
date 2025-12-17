@@ -214,6 +214,29 @@ section p {
   opacity: 0.8;
 }
 
+.project-links {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+.project-links a {
+  padding: 8px 14px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  background: rgba(255, 255, 255, 0.08);
+  color: #00c6ff;
+  transition: transform 0.3s, background 0.3s;
+}
+
+.project-links a:hover {
+  background: linear-gradient(45deg, #6a11cb, #2575fc);
+  color: #fff;
+  transform: translateY(-3px);
+}
+
 
 /*                 footer                   */
 
@@ -304,4 +327,93 @@ section p {
 
 
 
+/*                 Responsive Magic            */
+/*                 Tablets                      */
+@media (max-width: 992px) {
+
+  nav ul {
+    gap: 30px;
+  }
+
+  .header-text h1 {
+    font-size: 2.5rem;
+  }
+
+  section {
+    padding: 60px 6%;
+  }
+
+  .header-image img {
+    max-width: 280px;
+  }
+}
+
+
+/*                  Mobiles                 */
+@media (max-width: 768px) { 
+
+  nav ul {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  header {
+    text-align: center;
+  }
+
+  .header-content {
+    gap: 30px;
+  }
+
+  .header-text h1 {
+    font-size: 2.2rem;
+  }
+
+  .header-text p {
+    font-size: 1rem;
+  }
+
+  .header-text a {
+    display: inline-block;
+    margin: 5px;
+  }
+
+  section h2 {
+    font-size: 1.9rem;
+  }
+
+  #skills ul {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+
+  .footer-form select,
+  .footer-form button {
+    width: 100%;
+  }
+}
+
+
+/*                 Small phones            */
+@media (max-width: 480px) {
+
+  .header-text h1 {
+    font-size: 1.9rem;
+  }
+
+  nav ul {
+    gap: 15px;
+  }
+
+  section {
+    padding: 50px 5%;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+}
 
