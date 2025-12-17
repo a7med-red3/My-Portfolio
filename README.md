@@ -5,7 +5,7 @@ This project showcases my frontend skills, design sense, and learning journey.
 Focused on semantic HTML, modern layouts, and smooth UI interactions.
 
 ## 🌐 Live Demo
-[](https://a7med-red3.github.io/My-Portfolio/)
+[click here](https://a7med-red3.github.io/My-Portfolio/)
 
 ## 🛠️ Built With
 - HTML5
