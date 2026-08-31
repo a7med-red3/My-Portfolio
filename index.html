@@ -1,206 +1,407 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="description" content="Ahmed Reda Portfolio - Web Developer">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="author" content="Ahmed Reda">
-  <title>Ahmed Reda</title>
-  <link rel="icon" type="image/svg+xml" href="pic/AR.svg">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Reda</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="assist/AR.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
-<body id="top">
-    <main>
+<body>
 
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+<!-- ============= navbar ============= -->
+    <header>
+        <h2><a href="#home" class="logo">Ah<span>m</span>ed</a></h2>
+        <ul>  
+            <li><a class="home" href="#home">Home</a></li>
+            <li><a class="skills" href="#skills">Skills</a></li>
+            <li><a class="projects" href="#projects">Projects</a></li>
+            <li><a class="about" href="#about">About</a></li>
+            <li><a class="contact" href="#contact">Contact</a></li>
+        </ul>
+    </header>
 
-        <header id="home">
-            <div class="header-content">
-                <div class="header-text">
-                    <h1>Ahmed Reda</h1>
-                    <p>تحت التنفيذ</p>
-                  <!-- _______________________________ -->
-                   <p>Frontend Developer / Graphic Designer</p>
-                    <a href="doc/cv.pdf" download>Download My CV</a>
-                </div>
+<!-- ============= home ============= -->
+    <section id="home" class="ihome">
+        <div class="hero">
+            <p class="hello">Hello, I'm</p>
+            <h1>Ahmed Reda</h1>
+ 
+            <p class="description">
+                Back-End Developer | <span class="nodejs">Node.js</span>  in Progress..
+            </p>
 
-                <div class="header-image">
-                    <img src="pic/my_picture.jpg" alt="Ahmed Reda profile photo">
-                </div>
+            <div class="buttons">
+                <a href="#projects">View Projects</a>
+                <a href="#contact">Contact Me</a>
             </div>
-        </header>
+        </div>
 
-    
-        <section id="about">
-            <h2>About Me</h2>
-            <p>
-                I’m a Computer Science student in my second year, currently focused on frontend development
-                while learning backend technologies to become a full-stack developer.
-            </p>
+        <div class="pic">
+            <div class="photo-wrapper">
+                <img class="photo" src="assist/my.png" alt="Ahmed Reda">
+            </div>
+        </div>
+    </section>
 
-            <p>
-                I enjoy building clean, responsive web interfaces and turning ideas into real projects.
-                Problem-solving is a big part of what I like about programming, and I’m always curious
-                to understand how things work behind the scenes.
-            </p>
+<!-- ============= skills ============= -->
+    <section id="skills" class="iskills">
 
-            <p>
-                This portfolio represents my learning journey, the skills I’m developing,
-                and the projects I build as I continue to grow and improve every day.
-            </p>
+        <div class="title">
+            <p>What I Work With</p>
+            <h2>My Skills</h2>
+        </div>
 
-        </section>
+        <!-- ====== backend skills ====== -->
+        <div class="skillsCategory">
+            <h3>Backend Development</h3>
+
+            <div class="skillsContainer">
+
+                <div class="skillCard">
+                    <h4>Node.js</h4>
+                    <p>Building server-side applications and backend systems.</p>
+                </div>
+                <div class="skillCard">
+                    <h4>Learning...</h4>
+                    <p>لسه بتعلم ان شاء الله اكمل</p>
+                </div>
+
+                <!-- لسه بتعلم ان شاء الله اعملهم -->
+            <!--                    
+                <div class="skillCard">
+                    <h4>Express.js</h4>
+                    <p>Creating REST APIs and web servers.</p>
+                </div>
+                <div class="skillCard">
+                    <h4>REST APIs</h4>
+                    <p>Designing and developing APIs for web applications.</p>
+                </div>
+                <div class="skillCard">
+                    <h4>MongoDB</h4>
+                    <p>Working with NoSQL databases and data modeling.</p>
+                </div>
+                <div class="skillCard">
+                    <h4>SQL</h4>
+                    <p>Working with relational databases and queries.</p>
+                </div>
+                <div class="skillCard">
+                    <h4>Authentication</h4>
+                    <p>Building authentication and protected routes.</p>
+                </div> 
+            -->
+
+            </div>
+        </div>
+
+        <!-- ====== frontend skills ====== -->
+        <div class="skillsCategory">
+            <h3>Frontend Development</h3>
+
+            <div class="skillsContainer">
+
+                <div class="skillCard">
+                    <h4>HTML</h4>
+                    <p>Creating semantic and well-structured web pages.</p>
+                </div>
+
+                <div class="skillCard">
+                    <h4>CSS</h4>
+                    <p>Creating responsive and modern user interfaces.</p>
+                </div>
+
+                <div class="skillCard">
+                    <h4>JavaScript</h4>
+                    <p>Adding interactivity and dynamic functionality.</p>
+                </div>
+
+            </div>
+        </div>
 
 
-        <section id="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>C#</li>
-                <li>OOP</li>
-            </ul>
-        </section>
+        <!-- ====== tools ====== -->
+    <!-- 
+        <div class="skillsCategory">
+            <h3>Tools & Technologies</h3>
 
-    
-        <section id="projects">
+            <div class="skillsContainer">
+
+                <div class="skillCard small">
+                    <h4>Git</h4>
+                    <p>Version control and project management.</p>
+                </div>
+
+                <div class="skillCard small">
+                    <h4>GitHub</h4>
+                    <p>Managing repositories and collaborating on projects.</p>
+                </div>
+
+                <div class="skillCard small">
+                    <h4>Postman</h4>
+                    <p>Testing and debugging APIs.</p>
+                </div>
+
+                <div class="skillCard small">
+                    <h4>VS Code</h4>
+                    <p>My main development environment.</p>
+                </div>
+
+            </div>
+        </div> 
+    -->
+
+
+        <!-- ====== additional skills ====== -->
+        <div class="skillsCategory additional">
+            <h3>Additional Skills</h3>
+
+            <div class="skillsContainer">
+
+                <div class="skillCard">
+                    <h4>Canva</h4>
+                    <p>Creating social media designs and visual content.</p>
+                </div>
+
+                <div class="skillCard">
+                    <h4>Basic Graphic Design</h4>
+                    <p>Creating simple visual designs and promotional content.</p>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+<!-- ============= projects ============= -->
+    <section id="projects" class="iprojects">
+
+        <div class="title">
+            <p>MY WORK</p>
             <h2>Projects</h2>
-            <article>
-                <h3>Project One</h3>
-                <h4>My Portfolio</h4>
-                <p>Simple website using HTML and CSS.</p>  
-                <p>Features: semantic HTML, clean structure.</p>
-                <a href="" target="_blank"></a>
-                <div class="gallery">
-                    <img src="pic/screenshot_home.png" alt="Portfolio home page">
-                    <img src="pic/screenshot_about_skills.png" alt="About & Skills section">
-                    <img src="pic/screenshot_footer.png" alt="Projects section">
-                </div>
-                
-                <div class="project-links">
-                    <a href="https://github.com/a7med-red3/My-Portfolio.git" target="_blank">
-                        GitHub Repo
-                    </a>
+        </div>
 
-                    <a href="https://a7med-red3.github.io/My-Portfolio/" target="_blank">
-                        Live Demo
-                    </a>
+        <div class="projectsGrid">
+
+        <!-- ====== project 1 ====== -->
+            <div class="projectCard">
+
+                <div class="projectImage">
+                    <!-- <img src="assist/crud.png" alt="Product Management System"> -->
+                    <video src="assist/video.mp4" controls autoplay loop muted></video>
                 </div>
 
-                
-            </article>
+                <div class="projectContent">
+                    <span class="projectType">Frontend Project</span>
 
-            <article>
-                <h3>Project two</h3>
-                <h4>Portfolio Website</h4>
-                
-            </article>
+                    <h3>Product Management System</h3>
 
-            <article>
-                <h3>Project three</h3>
-                <h4>Portfolio Website</h4>
-                
-            </article>
+                    <p>
+                        A simple product management system built with
+                        HTML, CSS and JavaScript. It supports creating,
+                        editing, searching and deleting products.
+                    </p>
 
-            <article>
-                <h3>Project four</h3>
-                <h4>Portfolio Website</h4>
-                
-            </article>
+                    <div class="techStack">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
 
-            <article>
-                <h3>Project five</h3>
-                <h4>Portfolio Website</h4>
-  
-            </article>
-
-        </section>
-
-
-        <footer class="footer" id="contact">
-
-            <div class="footer-container">
-
-                <div class="footer-form">
-                    <h3>Contact Me</h3>
-                    <textarea id="footerMessage" placeholder="Write your message..."></textarea>
-
-                    <select id="footerPlatform">
-                        <option value="">Send via</option>
-                        <option value="whatsapp">WhatsApp</option>
-                        <option value="email">Email</option>
-                    </select>
-
-                    <button onclick="sendFooterMessage()">Send Message</button>
-                </div>
-
-                <div class="footer-social">
-                    <h3>Find Me On</h3>
-
-                    <div class="social-icons">
-                        <a href="https://github.com/a7med-red3" target="_blank">
-                        <img src="pic/github.svg" alt="GitHub"> 
-                        </a>
-
-                        <a href="https://www.linkedin.com/in/ahmed-reda-446147376" target="_blank">
-                        <img src="pic/linkedin.svg" alt="LinkedIn">
-                        </a>
-
-                        <a href="https://www.instagram.com/a7med.red3/" target="_blank">
-                        <img src="pic/instagram.svg" alt="Instagram">
-                        </a>
-
-                        <a href="https://api.whatsapp.com/send/?phone=201284825686" target="_blank">
-                        <img src="pic/whatsapp.svg" alt="WhatsApp">
-                        </a>
+                    <div class="projectLinks">
+                        <a href="https://a7med-red3.github.io/PRODUCT-MANAGEMENT-SYSTEM/" target="_blank">Live Demo</a>
+                        <a href="https://github.com/a7med-red3/PRODUCT-MANAGEMENT-SYSTEM" target="_blank">GitHub</a>
                     </div>
                 </div>
 
             </div>
+   
+            <!-- ====== project soon ====== -->
+            <div class="projectCard">
 
-            <p class="footer-copy">
-                © 2025 Ahmed Reda — Always learning. Always building.
-            </p>
+                <div class="projectImage">
+                    <img src="assist/crud.png" alt="Product Management System">
+                </div>
+                
+                <div class="projectImage comingSoon">
+                    <span>Coming Soon</span>
+                </div>
 
-            </footer>
-    </main>
+                <div class="projectContent">
+                    <span class="projectType">Backend Project</span>
 
+                    <h3>My First Node.js Project</h3>
 
+                    <p>
+                        Currently learning Node.js and working on my
+                        first backend project.
+                    </p>
 
-    <script>
-        function sendFooterMessage() 
-        {
-            const msg = document.getElementById("footerMessage").value;
-            const platform = document.getElementById("footerPlatform").value;
+                    <div class="techStack">
+                        <span>Node.js</span>
+                        <span>Express</span>
+                    </div>
 
-            if (!msg || !platform) {
-                alert("اكتب رسالة واختار طريقة الإرسال");
-                return;
-            }
+                    <div class="projectLinks">
+                        <a href="#projects">In Progress</a>
+                    </div>
+                </div>
 
-            const encodedMsg = encodeURIComponent(msg);
+            </div>
+        
+        </div>
+    </section>
 
-            if (platform === "whatsapp") {
-                window.open(`https://wa.me/201284825686?text=${encodedMsg}`);
-            }
+<!-- ============= about ============= -->
+    <section id="about" class="iabout">
 
-            if (platform === "email") {
-                window.open(`mailto:3hmedred3@email.com?body=${encodedMsg}`);
-            }
-        }
-    </script> 
+        <div class="title">
+            <p>GET TO KNOW ME</p>
+            <h2>About Me</h2>
+        </div>
+
+        <div class="aboutContent">
+
+            <div class="aboutText">
+                <h3>Hi, I'm Ahmed Reda</h3>
+
+                <p>
+                    I'm a Computer Science student and a passionate web developer
+                    interested in building modern and practical web applications.
+                </p>
+
+                <p>
+                    I started my journey with Front-End development using
+                    HTML, CSS and JavaScript, and I'm currently focusing on
+                    Back-End development with Node.js.
+                </p>
+
+                <p>
+                    I'm continuously learning, improving my problem-solving skills,
+                    and working on real projects to turn what I learn into
+                    practical experience.
+                </p>
+
+                <p>
+                    Besides programming, I also have an interest in graphic design
+                    and creating simple visual content using tools like Canva.
+                </p>
+
+                <p>
+                    My goal is to become a skilled Full-Stack Developer and build
+                    useful, scalable and well-designed applications.
+                </p>
+            </div>
+
+            <div class="aboutInfo">
+
+                <div class="infoCard">
+                    <span>Education</span>
+                    <h4>Computer Science Student</h4>
+                </div>
+
+                <div class="infoCard">
+                    <span>Focus</span>
+                    <h4>Back-End Development</h4>
+                </div>
+
+                <div class="infoCard">
+                    <span>Currently Learning</span>
+                    <h4>Node.js & Express</h4>
+                </div>
+
+                <div class="infoCard">
+                    <span>Goal</span>
+                    <h4>Full-Stack Developer</h4>
+                </div>
+
+            </div>
+
+        </div>
+
+   
+
+<!-- ============= contact ============= -->
+    <section id="contact" class="icontact">
+        <div class="title">
+            <p>GET IN TOUCH</p>
+            <h2>Contact Me</h2>
+        </div>
+
+        <div class="contactContent">
+
+            <div class="contactForm">
+
+                <h3>Let's Talk</h3>
+
+                <p class="contactDescription">
+                    Have a project idea or want to connect?
+                    Feel free to send me a message.
+                </p>
+
+                <form>
+                    <div class="inputGroup">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+
+                    <textarea name="message" placeholder="Write your message..." required></textarea>
+
+                    <select name="sendVia">
+                        <option value="" disabled selected>Send via</option>
+                        <option value="email">Email</option>
+                        <option value="whatsapp">WhatsApp</option>
+                    </select>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+
+            <div class="findMe">
+
+                <h3>Find Me On</h3>
+                <p>You can also find me on these platforms.</p>
+
+                <div class="socialLinks">
+
+                    <a href="https://github.com/a7med-red3" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/ahmed-reda-446147376" target="_blank">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/a7med.red3/" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="https://api.whatsapp.com/send/?phone=201284825686" target="_blank">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                </div>
+
+                <div class="contactNote">
+                    <span>Always learning..</span>
+                    <span>Always building...</span>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+<!-- ============= footer ============= -->
+    <footer>
+        <p>© <span id="year"></span> Ahmed Reda _ All Rights Reserved.</p>
+    </footer>
+
+    <button id="backToTop">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
-
-
-
