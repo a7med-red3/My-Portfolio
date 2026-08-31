@@ -613,310 +613,75 @@ footer span{
         overflow-x: hidden;
     }
 
-    header {
-        left: 10px;
-        right: 10px;
-        padding: 8px 10px;
-        flex-direction: column;
-        gap: 8px;
-    }
-    header .logo{
-        font-size: 24px;
-        padding-left: 0;
-    }
-    header ul {
-        width: 100%;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 3px;
-    }
-    header ul li {
-        margin-right: 0;
-    }
-
     .ihome {
         min-height: 80vh;
         margin: 150px 20px 0;
         padding-bottom: 40px;
-
         flex-direction: column;
         text-align: center;
-
         gap: 40px;
     }
-    .ihome .hero {
-        width: 100%;
-        padding-top: 90px;
-    }
-
     .ihome .hero .description {
         font-size: 17px;
         line-height: 1.6;
         margin: 10px 0 20px;
     }
-
-    .ihome .hero .buttons {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-    .ihome .hero .buttons a {
-        padding: 7px 12px;
-        margin: 4px;
-        font-size: 14px;
-    }
-
-    .pic {
-        width: 100%;
-        min-width: 0;
-        max-width: 400px;
-        padding-top: 10px;
-    }
-
-    .photo-wrapper {
-        width: 100%;
-    }
-
-    .photo-wrapper .photo {
-        width: 100%;
-        max-width: 380px;
-    }
-
     .pic::before {
-        width: 260px;
-        height: 260px;
+        min-width: 360px;
+        min-height: 360px;
     }
-
+    .photo{
+        min-width: 500px;
+    }
 
     /* ===================== Sections ===================== */
-
-    .iskills,
-    .iprojects,
-    .iabout,
-    .icontact {
-        min-height: auto;
-        padding: 80px 20px;
-    }
-
     .title {
-        margin-bottom: 40px;
+        margin-bottom: 50px;
     }
-
     .title p {
         font-size: 16px;
+        padding-top: 30px;
     }
-
-    .title h2 {
-        font-size: 34px;
-    }
-
-
-    /* ===================== Skills ===================== */
-
-    .skillsCategory {
-        margin-bottom: 40px;
-    }
-
-    .skillsCategory h3 {
-        font-size: 23px;
-        margin-bottom: 20px;
-    }
-
-    .skillsContainer {
-        grid-template-columns: 1fr;
-        gap: 15px;
-    }
-
-    .skillCard {
-        padding: 20px;
-    }
-
-    .skillCard h4 {
-        font-size: 20px;
-    }
-
-    .skillCard p {
-        font-size: 14px;
-    }
-
-
+    
     /* ===================== Projects ===================== */
-
     .projectsGrid {
         width: 100%;
-        grid-template-columns: 1fr;
+        display: inline-block;
         gap: 20px;
     }
-
-    .projectCard {
-        width: 100%;
-    }
-
-    .projectImage {
-        height: auto;
-        min-height: 200px;
-    }
-
     .projectImage img,
     .projectImage video {
-        height: 220px;
+        height: 100%;
+        width: 100%;
     }
-
+    .projectCard{
+        margin-bottom: 40px;
+        margin-left: 30px;
+    }
     .projectContent {
         padding: 15px;
     }
-
-    .projectContent .projectType {
-        font-size: 13px;
-        margin: 5px 0 10px;
-    }
-
-    .projectContent h3 {
-        font-size: 20px;
-    }
-
-    .projectContent p {
-        font-size: 14px;
-        margin: 10px 0;
-    }
-
-    .techStack {
-        margin: 15px 0;
-    }
-
-    .techStack span {
-        font-size: 12px;
-        padding: 5px 9px;
-    }
-
-    .projectLinks {
-        justify-content: flex-start;
-    }
-
-    .projectLinks a {
-        font-size: 12px;
-        padding: 6px 14px;
-    }
-
-
     /* ===================== About ===================== */
-
     .aboutContent {
         grid-template-columns: 1fr;
         gap: 20px;
+        margin-left: 30px;
     }
-
-    .aboutText {
-        padding: 22px;
-    }
-
-    .aboutText h3 {
-        font-size: 25px;
-    }
-
-    .aboutText p {
-        font-size: 14px;
-        line-height: 1.7;
-    }
-
-    .aboutInfo {
-        grid-template-columns: 1fr;
-        gap: 12px;
-    }
-
-    .infoCard {
-        padding: 18px;
-    }
-
-    .infoCard h4 {
-        font-size: 16px;
-    }
-
-
     /* ===================== Contact ===================== */
 
     .contactContent {
         width: 100%;
         grid-template-columns: 1fr;
         gap: 30px;
+        margin-left: 25px;
     }
-
-    .contactForm {
-        padding: 18px;
-    }
-
-    .contactForm h3,
-    .findMe h3 {
-        font-size: 25px;
-    }
-
-    .contactDescription,
-    .findMe p {
-        font-size: 14px;
-    }
-
-    .inputGroup {
-        grid-template-columns: 1fr;
-        gap: 12px;
-    }
-
-    .contactForm input {
-        height: 45px;
-    }
-
-    .contactForm textarea {
-        height: 130px;
-    }
-
-    .contactForm select {
-        height: 45px;
-    }
-
-    .contactForm button {
-        height: 48px;
-        font-size: 16px;
-    }
-
-    .socialLinks {
-        gap: 15px;
-    }
-
-    .socialLinks a {
-        width: 48px;
-        height: 48px;
-        font-size: 23px;
-    }
-
-    .contactNote {
-        margin-top: 30px;
-    }
-
-    .contactNote span:first-child,
-    .contactNote span:last-child {
-        font-size: 17px;
-    }
-
-
-    /* ===================== Footer ===================== */
-
-    footer {
-        margin-bottom: 0;
-        height: auto;
-        min-height: 50px;
-        padding: 15px 20px;
-        font-size: 13px;
-    }
-
-
-    /* ===================== Back To Top ===================== */
-
     #backToTop {
         right: 15px;
         bottom: 20px;
         width: 38px;
         height: 38px;
         font-size: 18px;
+        color: chocolate;
     }
 }
 
@@ -928,16 +693,13 @@ footer span{
         right: 15px;
         padding: 8px 15px;
     }
-
     header .logo {
         font-size: 25px;
         padding-left: 5px;
     }
-
     header ul li {
         margin-right: 10px;
     }
-
     header ul li a {
         font-size: 16px;
         padding: 5px 8px;
@@ -948,28 +710,22 @@ footer span{
         margin: 100px 25px 0;
         gap: 30px;
     }
-
     .ihome .hero {
         flex: 1;
     }
-
     .ihome .hero h1 {
         font-size: 55px;
     }
-
     .ihome .hero p {
         font-size: 21px;
     }
-
     .ihome .hero .description {
         font-size: 19px;
     }
-
     .pic {
         width: 420px;
         min-width: 350px;
     }
-
     .pic::before {
         width: 300px;
         height: 300px;
@@ -982,11 +738,9 @@ footer span{
     .icontact {
         padding: 90px 25px;
     }
-
     .skillsContainer {
         grid-template-columns: repeat(2, 1fr);
     }
-
     /* Projects */
     .projectsGrid {
         width: 100%;
@@ -1005,7 +759,7 @@ footer span{
         grid-template-columns: 1fr;
         gap: 30px;
     }
-}
+} 
 
 /* ===================== Small Phones ===================== */
 @media (max-width: 480px) {
@@ -1032,36 +786,32 @@ footer span{
 
 
     /* Home */
-
     .ihome {
         margin: 135px 15px 0;
-        padding-bottom: 30px;
+        padding-bottom: 0;
     }
-
     .ihome .hero h1 {
         font-size: 40px;
     }
-
     .ihome .hero p {
         font-size: 16px;
     }
-
     .ihome .hero .description {
         font-size: 15px;
     }
-
     .ihome .hero .buttons a {
         font-size: 13px;
         padding: 6px 9px;
     }
-
     .pic {
         max-width: 300px;
     }
-
     .pic::before {
         width: 210px;
         height: 210px;
+    }
+    .photo, .iskills{
+        margin-left: 30px;
     }
 
 
