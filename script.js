@@ -15,7 +15,7 @@ window.addEventListener("scroll", () => {
     let currentSection = "";
     sections.forEach((section) => {
 
-        const sectionTop = section.offsetTop - 150;
+        const sectionTop = section.offsetTop - 50;
         const sectionHeight = section.offsetHeight;
         if (
             window.scrollY >= sectionTop &&
@@ -100,9 +100,10 @@ window.history.scrollRestoration = "manual";
 
 window.addEventListener("load", () => {
     window.scrollTo({
-        top: 0,
+        // top: 0,
     });
 });
+
 
 
 const backToTop = document.getElementById("backToTop");
