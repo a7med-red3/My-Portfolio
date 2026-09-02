@@ -610,7 +610,11 @@ footer{
         overflow-x: hidden;
     }
     .iabout, .iskills, .iprojects{
-        margin:15px;
+        margin:5px;
+        
+    }
+    .icontact{
+        margin-top: -10px;
     }
 
     /* Navbar */
@@ -621,25 +625,35 @@ footer{
         padding: 8px 10px;
     }
     header .logo {
-        font-size: 22px;
+        font-size: 13px;
         padding-left: 0;
     }
     header ul {
-        gap: 2px;
+        width: 65%;
+        gap: 1px;
+        margin-right: 8px;
+        margin-left: 5px;
+
     }
     header ul li {
         margin-right: 0;
     }
     header ul li a {
-        font-size: 13px;
+        font-size: 8px;
         padding: 5px 6px;
     }
 
+    .icontact{
+        height: 100;
+        margin: 120px 20px 0;
+        flex-direction: column;
+        text-align: center;
+        gap: 35px;
+    }
     /* Home */
     .ihome {
-        height: 80vh;
+        height: 100;
         margin: 120px 20px 0;
-        padding-bottom: 40px;
         flex-direction: column;
         text-align: center;
         gap: 35px;
@@ -665,6 +679,7 @@ footer{
     .pic {
         width: 3500px;
         margin-right: 70px;
+        padding-top: 10px;
     }
     .pic::before {
         /* circle bottom */
@@ -769,6 +784,10 @@ footer{
         bottom: 20px;
         width: 38px;
         height: 38px;
+    }
+
+    footer{
+        font-size: 12px;
     }
 
 }
