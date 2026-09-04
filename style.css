@@ -676,10 +676,9 @@ footer{
         flex-wrap: wrap;
     }
     
-    /* تظبيط الصورة اللي كانت بحجم الشارع */
     .pic {
         width: 100%; 
-        max-width: 300px; /* حجم مناسب للموبايل */
+        max-width: 300px; 
         margin: 0 auto;
         padding-top: 10px;
     }
@@ -723,6 +722,10 @@ footer{
     }
     .inputGroup {
         grid-template-columns: 1fr; 
+    }
+    footer{
+       
+        font-size: 10px;
     }
 }
 
