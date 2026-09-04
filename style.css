@@ -661,10 +661,10 @@ footer{
         width: 100%;
     }
     .ihome .hero h1 {
-        font-size: 20px;
+        font-size: 20px !important;
     }
     .ihome .hero p {
-        font-size: 18px;
+        font-size: 18px !important;
     }
     .ihome .hero .description {
         font-size: 16px;
